@@ -13,6 +13,11 @@ header {
 
 .titulo {
 	margin: 30px 100px;
+	display: inline-block;
+}
+
+.iconos {
+	display: inline-block;
 }
 
 .partes {
@@ -56,10 +61,16 @@ header {
 	color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
-    width: 30%;
+    width: 35%;
     height: 140px;
     padding: 15px;
     display: inline-block;
+}
+
+.gen-img, .gen2-img, .gen3-img {
+    background-image: url(../img/gen-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
 }
 
 .gen-img {
@@ -67,9 +78,9 @@ header {
 	width: 60%;
 	margin-left: -4px;
 	height: 170px;
-	background-color: red;
 	vertical-align: top;
-
+	background-size: 500%;
+    background-position: -1044px -4px;
 }
 
 .noticia-secundaria {
@@ -89,7 +100,6 @@ header {
 .gen2-img, .gen3-img {
     width: 290px;
     height: 140px;
-    background-color: red;
     display: block;
 
 }

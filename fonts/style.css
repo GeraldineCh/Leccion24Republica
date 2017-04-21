@@ -14,10 +14,13 @@
   font-family: 'icomoon' !important;
   speak: none;
   font-style: normal;
+  font-size: 40px;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
+  display: inline;
   line-height: 1;
+  color: white;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
