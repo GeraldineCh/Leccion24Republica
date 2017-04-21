@@ -60,7 +60,8 @@ header {
 	background-color: rgb(51, 51, 64);
 	color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
+    font-weight: bold;
     width: 35%;
     height: 140px;
     padding: 15px;
@@ -74,18 +75,17 @@ header {
 }
 
 .gen-img {
-	display: inline-block;
-	width: 60%;
-	margin-left: -4px;
-	height: 170px;
-	vertical-align: top;
-	background-size: 500%;
-    background-position: -1044px -4px;
+    display: inline-block;
+    width: 56%;
+    margin-left: -4px;
+    height: 170px;
+    vertical-align: top;
+    background-size: 541%;
+    background-position: -1065px -4px;
 }
 
 .noticia-secundaria {
     height: 50px;
-    width: 120px;
     margin-top: 110px;
     display: inline-flex;
     padding: 10px;
@@ -93,23 +93,38 @@ header {
 
 .sec-1, .sec-2 {
 	display: inline-block;
-	margin-right: 30px;
+    width: 50%
+}
 
+.sec-1 {
+    margin-right: 10px;
 }
 
 .gen2-img, .gen3-img {
     width: 290px;
     height: 140px;
     display: block;
-
 }
+
+.gen2-img {
+    background-size: 750%;
+    background-position: -240px -4px;
+}
+
+.gen3-img {
+    background-size: 751%;
+    background-position: -835px -4px;
+}
+
 .noticia2, .noticia3 {
 	margin:0px;
 	background-color: rgb(51, 51, 64);
 	color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: bold;
     width: 270px;
+    height: 80px;
     padding: 10px;
     display: block;
 }
